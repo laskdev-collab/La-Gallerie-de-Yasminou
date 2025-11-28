@@ -41,13 +41,13 @@ const Hero: React.FC<HeroProps> = ({ searchQuery, setSearchQuery }) => {
         </div>
 
         <span className="block text-rose-400 text-lg md:text-xl font-serif tracking-[0.2em] mb-4 uppercase">
-          Bienvenue à
+          Bienvenue Chez
         </span>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-stone-800 mb-6 tracking-tight drop-shadow-sm">
           La Galerie De Yasminou
         </h1>
         <p className="font-sans text-lg md:text-xl text-stone-600 max-w-2xl mx-auto leading-relaxed font-light">
-          Des dessins simples faits par une personne simple, mais on l'apprecie quand meme.
+          Des dessins simples faits par une personne simple, mais on les apprecies quand meme.
         </p>
 
         <div className="mt-12">
@@ -55,7 +55,7 @@ const Hero: React.FC<HeroProps> = ({ searchQuery, setSearchQuery }) => {
             href="#gallery"
             className="inline-block px-8 py-4 border border-rose-300 text-rose-900 font-serif tracking-widest uppercase text-sm hover:bg-white hover:border-rose-400 transition-all duration-500 rounded-full shadow-sm hover:shadow-md"
           >
-            Voir la Collection
+            Voir la Collection de la goat
           </a>
         </div>
       </div>

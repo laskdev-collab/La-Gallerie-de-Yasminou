@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>La Galerie De Yasminou | Art, Dessins & Inspiration de la goat</title>
+    <meta name="description" content="Découvrez l'univers artistique de Yasminou. Une galerie de dessins uniques : portraits, paysages et botanique dans un style Versailles moderne, coquette et floral." />
+    <meta name="keywords" content="dessin, art, yasminou, mulhouse, galerie d'art, aquarelle, portrait, floral, versailles moderne, artiste, croquis, coquette aesthetic" />
+    <meta name="author" content="Yasminou" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / Instagram -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lagaleriedeyasminou.com/" />
+    <meta property="og:title" content="La Galerie De Yasminou | Art & Douceur" />
+    <meta property="og:description" content="Plongez dans un univers rose poudré et floral. Découvrez mes derniers dessins et créations artistiques." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lagaleriedeyasminou.com/" />
+    <meta property="twitter:title" content="La Galerie De Yasminou | Art & Dessins" />
+    <meta property="twitter:description" content="Une collection délicate de dessins au style Versailles moderne." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?random=1" />
+
+    <!-- Structured Data (JSON-LD) for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ArtGallery",
+        "name": "La Galerie De Yasminou",
+        "image": "https://picsum.photos/600/800?random=1",
+        "description": "Galerie d'art en ligne présentant les dessins de Yasminou, spécialisée dans le style floral,portraits et animes.",
+        "url": "https://lagaleriedeyasminou.com",
+        "founder": {
+          "@type": "Person",
+          "name": "Yasminou",
+          "jobTitle": "Artiste Dessinatrice"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mulhouse",
+          "addressCountry": "FR"
+        }
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              display: ['"Cinzel"', 'serif'],
+              sans: ['"Quicksand"', 'sans-serif'],
+            },
+            colors: {
+              rose: {
+                50: '#fff1f2',
+                100: '#ffe4e6',
+                200: '#fecdd3',
+                300: '#fda4af',
+                400: '#fb7185', // Accent text
+                900: '#881337', // Deep text
+              },
+              champagne: {
+                100: '#f7e7ce',
+                200: '#f3dfc1',
+                300: '#e6c89c',
+              },
+              stone: {
+                50: '#fafaf9', // Main background
+                800: '#292524', // Text
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #fafaf9;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar for elegance */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #fff1f2; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #e6c89c; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #fda4af; 
+      }
+    </style>
+
+    <link rel="icon" type="image/jpg" href="/favicon.jpg">
+    <link rel="stylesheet" href="/index.css">
+    <script type="module" crossorigin src="/assets/index-B5GR_uMI.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
