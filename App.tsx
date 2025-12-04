@@ -19,9 +19,6 @@ const App: React.FC = () => {
 
       {/* Gemini AI Powered Feature */}
       <InspirationAssistant />
-
-      {/* Gemini AI Powered Feature */}
-      <InspirationAssistant />
     </main>
   );
 };
